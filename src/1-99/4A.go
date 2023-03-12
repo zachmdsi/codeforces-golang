@@ -4,7 +4,6 @@ import (
 	"bufio"
 	. "fmt"
 	"io"
-	"os"
 )
 
 func P4A(_r io.Reader, _w io.Writer) {
@@ -33,6 +32,6 @@ func P4A(_r io.Reader, _w io.Writer) {
 	}
 }
 
-func main() {
+/*func main() {
 	P4A(os.Stdin, os.Stdout)
-}
+}*/
