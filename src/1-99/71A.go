@@ -4,7 +4,6 @@ import (
 	"bufio"
 	. "fmt"
 	"io"
-	"os"
 	"strconv"
 	"strings"
 )
@@ -34,6 +33,6 @@ func P71A(_r io.Reader, _w io.Writer) {
 	}
 }
 
-func main() { 
+/*func main() { 
 	P71A(os.Stdin, os.Stdout)
-}
+}*/
