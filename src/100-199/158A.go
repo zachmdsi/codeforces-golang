@@ -4,7 +4,6 @@ import (
 	"bufio"
 	. "fmt"
 	"io"
-	"os"
 )
 
 func P158A(_r io.Reader, _w io.Writer) {
@@ -31,6 +30,6 @@ func P158A(_r io.Reader, _w io.Writer) {
 	Fprint(out, n)
 }
 
-func main() {
+/*func main() {
 	P158A(os.Stdin, os.Stdout)
-}
+}*/
